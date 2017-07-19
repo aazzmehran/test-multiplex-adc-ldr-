@@ -1,0 +1,32 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+buffer                                                                            0x0160      20
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+L_1                                                                               R4,R5        2
+L_2                                                                               R6,R7        2
+L_3                                                                               R8,R9        2
+L_4                                                                               R10,R11      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x0004A     14
+LDR                                                                               0x00058     58
+main                                                                              0x00092     28
+putchar                                                                           0x000AE      7
+puts                                                                              0x000B5     17
+put_usart_G100                                                                    0x000C6      8
+put_buff_G100                                                                     0x000CE     45
+_print_G100                                                                       0x000FB    281
+sprintf                                                                           0x00214     38
+printf                                                                            0x0023A     26
+strlen                                                                            0x00254     11
+strlenf                                                                           0x0025F     12
